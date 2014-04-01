@@ -1,0 +1,26 @@
+body {
+  font-family: Verdana, Garamond, Times New Roman;
+  color: white;
+  background-color: black
+}
+
+.sign {
+  font-weight: bold;
+}
+
+#outcome {
+  font-weight: bold;
+  font-size: 20pt;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.tie {
+  color: blue;
+}

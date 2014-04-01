@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" type="text/css" href="./rps.css">
+  </head>
+  <body>
+    <h1>Rock Paper Scissors</h1>
+    <!-- RPS-status -->
+    <form action="throw" method="POST" id="sign-form">
+      <label for="sign">Show me your moves! </label>
+      <select id="sign" name="sign" value="" form="sign-form">
+        <option>Rock</option>
+        <option>Paper</option>
+        <option>Scissors</option>
+      </select>
+      <input type="submit" value="Shoot!">
+    </form>
+    <form action="/" method="GET">
+      <button>New Game</button>
+    </form>
+  </body>
+</html>
